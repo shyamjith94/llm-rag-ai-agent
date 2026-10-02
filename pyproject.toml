@@ -1,0 +1,30 @@
+[project]
+name = "llm-rag-ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "shyamjith", email = "shyamjithsmaniyoor@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "ipython>=8.18.1",
+    "ipywidgets>=8.1.9",
+    "openai>=2.48.0",
+    "pillow>=11.3.0",
+    "pydantic-settings>=2.11.0",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+]
+
+[project.scripts]
+llm-rag-ai-agent = "llm_rag_ai_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.31.0",
+]

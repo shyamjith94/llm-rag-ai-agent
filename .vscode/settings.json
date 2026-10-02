@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "python.venvFolders": [
+    ".venv"
+  ],
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "notebook.output.wordWrap": true
+}
